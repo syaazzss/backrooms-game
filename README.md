@@ -5,6 +5,7 @@
   <br/>
   <i>"Kamu masuk ke tempat yang seharusnya tidak kamu temukan."</i>
 </p>
+
 Platform](https://img.shields.io/badge/Platform-Terminal-black)
 ![Genre](https://img.shields.io/badge/Genre-Horror-darkred)
 ![Project](https://img.shields.io/badge/Project-Learning-purple)
