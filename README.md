@@ -4,7 +4,10 @@
   <b>WELCOME TO THE BACKROOMS</b>
   <br/>
   <i>"Kamu masuk ke tempat yang seharusnya tidak kamu temukan."</i>
-</p>---
+</p>
+Platform](https://img.shields.io/badge/Platform-Terminal-black)
+![Genre](https://img.shields.io/badge/Genre-Horror-darkred)
+![Project](https://img.shields.io/badge/Project-Learning-purple)
 
 ## 👁️ Tentang Project
 
@@ -27,12 +30,6 @@ Berani mencari jalan keluar?
 Catatan: Deskripsi gameplay ini menggambarkan konsep game. Mekanisme yang tersedia mengikuti implementasi kode saat ini.
 
 ## 🐍 Teknologi
-
-
-![Platform](https://img.shields.io/badge/Platform-Terminal-black)
-![Genre](https://img.shields.io/badge/Genre-Horror-darkred)
-![Project](https://img.shields.io/badge/Project-Learning-purple)
-
 
 - Bahasa: Python
 - Platform: Terminal / Command Line
