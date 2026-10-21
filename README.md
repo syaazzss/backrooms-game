@@ -5,6 +5,9 @@
 
 ![Platform](https://img.shields.io/badge/Platform-CLI-black?style=flat-square&logo=windowsterminal&logoColor=white)
 
+Platform](https://img.shields.io/badge/Platform-Terminal-black)
+![Genre](https://img.shields.io/badge/Genre-Horror-darkred)
+![Project](https://img.shields.io/badge/Project-Learning-purple)
 
 
 <p align="center">
