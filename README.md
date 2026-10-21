@@ -72,13 +72,12 @@ https://github.com/syaazzss/backrooms-game.git
 
 2. Masuk ke folder project
 ```bash
-cd NAMA_FOLDER_PROJECT
+cd backrooms-game
 ```
 3. Jalankan game
 ```bash
-python main.py
+python cruel_backroom.py
 ```
-«Catatan: Perintah di atas mengasumsikan file utama game bernama "main.py". Jika nama file-mu berbeda, sesuaikan perintahnya.»
 
 # 📚 Tujuan Pembelajaran
 
