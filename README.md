@@ -37,6 +37,13 @@ Catatan: Deskripsi gameplay ini menggambarkan konsep game. Mekanisme yang tersed
 
 ## 🐍 Teknologi
 
+
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
+
+
+
 - Bahasa: Python
 - Platform: Terminal / Command Line
 - Jenis game: Text-based game
