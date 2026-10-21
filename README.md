@@ -76,7 +76,7 @@ cd backrooms-game
 ```
 3. Jalankan game
 ```bash
-[📄 Lihat kode cruel_backroom.py](https://github.com/syaazzss/backrooms-game/blob/main/cruel_backroom.py)
+python cruel_backroom.py
 ```
 
 # 📚 Tujuan Pembelajaran
