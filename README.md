@@ -78,7 +78,7 @@ cd backrooms-game
 ```bash
 python cruel_backroom.py
 ```
-
+n
 # 📚 Tujuan Pembelajaran
 
 Project ini menjadi sarana untuk berlatih:
