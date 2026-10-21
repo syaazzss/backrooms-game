@@ -66,9 +66,9 @@ Fitur-fitur tersebut merupakan rencana yang dapat dikembangkan secara bertahap.
 Pastikan Python sudah terpasang di perangkatmu.
 
 1. Clone repository
-
+```bash
 git clone URL_REPOSITORY_KAMU
-
+```
 Ganti "URL_REPOSITORY_KAMU" dengan URL repository GitHub milikmu.
 
 2. Masuk ke folder project
