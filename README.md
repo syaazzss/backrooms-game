@@ -6,7 +6,7 @@
   <i>"Kamu masuk ke tempat yang seharusnya tidak kamu temukan."</i>
 </p>---
 
-##👁️ Tentang Project
+## 👁️ Tentang Project
 
 Backrooms adalah project game sederhana berbasis teks yang dibuat menggunakan Python dan dijalankan melalui terminal.
 
@@ -14,7 +14,7 @@ Terinspirasi dari legenda internet tentang sebuah dimensi misterius dengan loron
 
 Project ini masih dalam tahap latihan. Tujuannya bukan sekadar membuat game, tetapi juga belajar memahami logika pemrograman, alur permainan, dan cara mengembangkan ide menjadi sesuatu yang bisa dimainkan.
 
-##🎮 Gameplay
+## 🎮 Gameplay
 
 Kamu terjebak di sebuah tempat asing.
 
@@ -26,7 +26,7 @@ Berani mencari jalan keluar?
 
 Catatan: Deskripsi gameplay ini menggambarkan konsep game. Mekanisme yang tersedia mengikuti implementasi kode saat ini.
 
-##🐍 Teknologi
+## 🐍 Teknologi
 
 - Bahasa: Python
 - Platform: Terminal / Command Line
@@ -35,7 +35,7 @@ Catatan: Deskripsi gameplay ini menggambarkan konsep game. Mekanisme yang tersed
 
 Tidak menggunakan game engine khusus untuk versi latihan ini.
 
-##✨ Rencana Pengembangan
+## ✨ Rencana Pengembangan
 
 - [ ] Membuat alur permainan yang lebih menarik.
 - [ ] Menambahkan pilihan tindakan pemain.
@@ -45,7 +45,7 @@ Tidak menggunakan game engine khusus untuk versi latihan ini.
 
 Fitur-fitur tersebut merupakan rencana yang dapat dikembangkan secara bertahap.
 
-#🚀 Cara Menjalankan
+# 🚀 Cara Menjalankan
 
 Pastikan Python sudah terpasang di perangkatmu.
 
@@ -65,7 +65,7 @@ python main.py
 
 «Catatan: Perintah di atas mengasumsikan file utama game bernama "main.py". Jika nama file-mu berbeda, sesuaikan perintahnya.»
 
-#📚 Tujuan Pembelajaran
+# 📚 Tujuan Pembelajaran
 
 Project ini menjadi sarana untuk berlatih:
 
@@ -78,15 +78,15 @@ Project ini menjadi sarana untuk berlatih:
 
 Materi yang tercantum akan dipelajari atau diterapkan sesuai perkembangan project.
 
-#🚧 Status Project
+# 🚧 Status Project
 
-##🟡 WORK IN PROGRESS
+## 🟡 WORK IN PROGRESS
 
 Ini masih project latihan dan belum tentu memiliki semua fitur yang direncanakan.
 
 Kesalahan adalah bagian dari proses. Setiap percobaan memberikan kesempatan untuk memahami sesuatu yang baru dan membuat versi berikutnya menjadi lebih baik.
 
-#📜 Lisensi & Hak Cipta
+# 📜 Lisensi & Hak Cipta
 
 © 2026 Vei. Hak cipta atas kode dan karya orisinal dalam repository ini tetap dimiliki oleh pembuatnya.
 
