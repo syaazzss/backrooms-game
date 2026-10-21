@@ -28,6 +28,12 @@ Catatan: Deskripsi gameplay ini menggambarkan konsep game. Mekanisme yang tersed
 
 ## 🐍 Teknologi
 
+
+![Platform](https://img.shields.io/badge/Platform-Terminal-black)
+![Genre](https://img.shields.io/badge/Genre-Horror-darkred)
+![Project](https://img.shields.io/badge/Project-Learning-purple)
+
+
 - Bahasa: Python
 - Platform: Terminal / Command Line
 - Jenis game: Text-based game
