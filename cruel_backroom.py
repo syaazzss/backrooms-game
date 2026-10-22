@@ -6,24 +6,49 @@ print("    R   E         A   K   O    M")
 
 
 #------- Button works ------
+while True:
 
-button = input("write: start game/option/settings/exit game")
-
+button = "start game" 
+print("start game")
 
 if button == "start game" :
   print("loading...")
   print("started game")
 
-elif button == "option":
+button = "option" 
+print("option")
+
+if button == "option":
   print("select the option")
-  option_button = input("write: single player/multiplayer")
-  levels_option = input("write: noob/standard/pro/nightmare")
+  option_button = "single player" 
+  print("single player")
+  option_button = "multiplayer" 
+  print("multiplayer")
+  levels_option = "noob" 
+  print("noob")
+  levels_option = "standard" 
+  print("standard")
+  levels_option = "pro" 
+  print("pro")
+  levels_option = "nightmare"
+  print("nightmare")
   
-  if option_button == "single player" and levels_option in ["noob","standard","pro","nightmare" ] :
+  if option_button == "single player" and "noob" in levels_option :
     print("let's go")
   
-  elif option_button == "multiplayer" and levels_option in ["noob","standard","pro","nightmare"] :
-    print("Crete your world")
+  elif option_button == "single player" and "standard" in levels_option :
+    print("Let's go")
+  
+  elif option_button == "single player" and "pro" in levels_option :
+    print("Let's go")
+
+  elif option_button == "single player" and "nightmare" in levels_option :
+    print("Let's go,hero")
+
+  elif option_button == "multiplayer" and "noob" in levels_option :
+    print("create your own world")
+
+
 if button == "settings" :
   volume = input("volume 0-100: ")
   print(f"volume {volume}")
