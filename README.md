@@ -106,8 +106,6 @@ Kesalahan adalah bagian dari proses. Setiap percobaan memberikan kesempatan untu
 
 Kode dapat dipelajari dan dilihat secara publik di GitHub. Namun, penggunaan ulang, distribusi, atau modifikasi kode harus mengikuti izin dan ketentuan lisensi yang berlaku.
 
-Catatan: Ketentuan hukum dan izin penggunaan secara spesifik bergantung pada lisensi yang nantinya kamu pilih. Mencantumkan pemberitahuan hak cipta saja tidak otomatis melarang seluruh penggunaan kode oleh orang lain.
-
 ---
 
 <p align="center">
