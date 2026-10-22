@@ -7,7 +7,7 @@ print("    R   E         A   K   O    M")
 
 #------- Button works ------
 
-button = input("write: start game/options/settings/exit game")
+button = input("write: start game/option/settings/exit game")
 
 
 if button == "start game" :
