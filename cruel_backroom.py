@@ -25,7 +25,7 @@ elif button == "option":
   elif option_button == "multiplayer" and levels_option in ["noob","standard","pro","nightmare"] :
     print("Crete your world")
 if button == "settings" :
-  volume = input(volume 0-100: )
+  volume = input("volume 0-100: ")
   print(f"volume {volume}")
   sensitivity = input("low/standard/ high: ")
   print(f"sensitivity {sensitivity}")
