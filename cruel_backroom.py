@@ -24,20 +24,20 @@ elif button == "option":
   
   elif option_button == "multiplayer" and levels_option in ["noob","standard","pro","nightmare"] :
     print("Crete your world")
-if button = "settings" :
-  volume = int(input(0,100))
+if button == "settings" :
+  volume = input(volume 0-100: )
   print(f"volume {volume}")
-  sensitivity = input("low","standard","high")
+  sensitivity = input("low/standard/ high: ")
   print(f"sensitivity {sensitivity}")
-  head_boobing = input("low","standard","high")
+  head_boobing = input("low/standard/high: ")
   print(f"head_boobing {head_boobing}")
-  forward_button = input("W")
+  forward_button = input("W: ")
   print(f"forward {forward_button}")
-  step_back_button = input("S")
+  step_back_button = input("S: ")
   print(f"step back {step_back_button}")
-  right_button = input("D")
+  right_button = input("D: ")
   print(f"right {right_button}")
-  left_button = input("A")
+  left_button = input("A: ")
   print(f"left {left_button}")
   
 
