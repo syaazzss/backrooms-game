@@ -7,7 +7,7 @@ print("    R   E         A   K   O    M")
 #-------- Button works -------
 
 button = ["start game", "option", "settings", "exit game"]
-option button = ["single player, "multiparty"]
+option button = ["single player", "multiparty"]
 
 if button == "start game" :
   print("loading...")
