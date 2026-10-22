@@ -20,7 +20,7 @@ elif button == "make account":
   name = input("your name")
   username = input("make your username")
   email = input("your email")
-  age = input("your age")
+  age = int(input("your age"))
   pin = input("fix your pin")
   if age <= 20 :
     print("sorry,your age isnt enough")
@@ -37,44 +37,44 @@ button = input("click: start game/option/setting/exit game")
 if button == "start game" :
   print("loading...")
   print("started game")
-break
+  break
 
 if button == "option":
   print("select your option")
   player_option = input("select: single player/multiplayer")
   player_mode = input("select mode: noob/standard/pro/nightmare")
   
-  if option_button == "single player" and player_mode == "noob" :
+  if player_option == "single player" and player_mode == "noob" :
     print("easy mode")
   
-  elif option_button == "single player" and and player_mode == "standard" :
+  elif player_option == "single player" and player_mode == "standard" :
     print("medium mode")
   
-  elif option_button == "single player" and player_mode == "pro":
+  elif player_option == "single player" and player_mode == "pro":
     print("pro player")
 
-  elif option_button == "single player" and player_mode == "nightmare" :
+  elif player_option == "single player" and player_mode == "nightmare" :
     print("Let's go,hero")
 
-  elif option_button == "multiplayer" and player_mode == "noob" :
+  elif player_option == "multiplayer" and player_mode == "noob" :
+    print("create your own world")
+    for_multiplayer = "create your own world"
+    name_world = input("write your world here: ")
+    invitation = input("write your friends id here: ")
+
+  elif player_option == "multiplayer" and player_mode == "standard" :
     print("create your own world")
     for_multiplayer = create your own world
     name_world = input("write your world here: ")
     invitation = input("write your friends id here: ")
 
-  elif option_button == "multiplayer" and player_mode == "standard" :
+  elif player_option == "multiplayer" and player_mode == "pro":
     print("create your own world")
     for_multiplayer = create your own world
     name_world = input("write your world here: ")
     invitation = input("write your friends id here: ")
 
-  elif option_button == "multiplayer" and player_mode == "pro":
-    print("create your own world")
-    for_multiplayer = create your own world
-    name_world = input("write your world here: ")
-    invitation = input("write your friends id here: ")
-
-  elif option_button == "multiplayer" and player_mode == "nightmare":
+  elif player_option == "multiplayer" and player_mode == "nightmare":
     print("create your own world")
     for_multiplayer = create your own world
     name_world = input("write your world here: ")
