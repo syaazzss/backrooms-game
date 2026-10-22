@@ -25,6 +25,7 @@ elif button == "make account":
   if age <= 20 :
     print("sorry,your age isnt enough")
   print("we sent the account activate to your email. Check it!")
+break
 
 
 
@@ -97,5 +98,6 @@ if button == "settings" :
   print(f"right {right_button}")
   left_button = input("A: ")
   print(f"left {left_button}")
+break
   
 
