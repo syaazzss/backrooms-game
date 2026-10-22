@@ -24,7 +24,8 @@ elif button == "make account":
   pin = input("fix your pin")
   if age <= 20 :
     print("sorry,your age isnt enough")
-  print("we sent the account activate to your email. Check it!")
+  else: 
+    print("we sent the account activate to your email. Check it!")
 break
 
 
@@ -64,19 +65,19 @@ if button == "option":
 
   elif player_option == "multiplayer" and player_mode == "standard" :
     print("create your own world")
-    for_multiplayer = create your own world
+    for_multiplayer = "create your own world"
     name_world = input("write your world here: ")
     invitation = input("write your friends id here: ")
 
   elif player_option == "multiplayer" and player_mode == "pro":
     print("create your own world")
-    for_multiplayer = create your own world
+    for_multiplayer = "create your own world" 
     name_world = input("write your world here: ")
     invitation = input("write your friends id here: ")
 
   elif player_option == "multiplayer" and player_mode == "nightmare":
     print("create your own world")
-    for_multiplayer = create your own world
+    for_multiplayer = "create your own world" 
     name_world = input("write your world here: ")
     invitation = input("write your friends id here: ")
 
