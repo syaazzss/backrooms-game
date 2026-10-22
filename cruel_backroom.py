@@ -5,48 +5,81 @@ print("  C   U   L     B   C   R   O")
 print("    R   E         A   K   O    M")
 
 
-#------- Button works ------
+#--------      LOGIN ----------
 while True:
 
-button = "start game" 
-print("start game")
+button = input("click: login/make account")
+
+if button == "login":
+  username = input("username/id")
+  email = input("your email")
+  pin = input("your pin")
+break
+
+elif button == "make account":
+  name = input("your name")
+  username = input("make your username")
+  email = input("your email")
+  age = input("your age")
+  pin = input("fix your pin")
+  if age <= 20 :
+    print("sorry,your age isnt enough")
+  print("we sent the account activate to your email. Check it!")
+
+
+
+#------- Button works ------
+while True:
+button = input("click: start game/option/setting/exit game")
+
 
 if button == "start game" :
   print("loading...")
   print("started game")
-
-button = "option" 
-print("option")
+break
 
 if button == "option":
-  print("select the option")
-  option_button = "single player" 
-  print("single player")
-  option_button = "multiplayer" 
-  print("multiplayer")
-  levels_option = "noob" 
-  print("noob")
-  levels_option = "standard" 
-  print("standard")
-  levels_option = "pro" 
-  print("pro")
-  levels_option = "nightmare"
-  print("nightmare")
+  print("select your option")
+  player_option = input("select: single player/multiplayer")
+  player_mode = input("select mode: noob/standard/pro/nightmare")
   
-  if option_button == "single player" and "noob" in levels_option :
-    print("let's go")
+  if option_button == "single player" and player_mode == "noob" :
+    print("easy mode")
   
-  elif option_button == "single player" and "standard" in levels_option :
-    print("Let's go")
+  elif option_button == "single player" and and player_mode == "standard" :
+    print("medium mode")
   
-  elif option_button == "single player" and "pro" in levels_option :
-    print("Let's go")
+  elif option_button == "single player" and player_mode == "pro":
+    print("pro player")
 
-  elif option_button == "single player" and "nightmare" in levels_option :
+  elif option_button == "single player" and player_mode == "nightmare" :
     print("Let's go,hero")
 
-  elif option_button == "multiplayer" and "noob" in levels_option :
+  elif option_button == "multiplayer" and player_mode == "noob" :
     print("create your own world")
+    for_multiplayer = create your own world
+    name_world = input("write your world here: ")
+    invitation = input("write your friends id here: ")
+
+  elif option_button == "multiplayer" and player_mode == "standard" :
+    print("create your own world")
+    for_multiplayer = create your own world
+    name_world = input("write your world here: ")
+    invitation = input("write your friends id here: ")
+
+  elif option_button == "multiplayer" and player_mode == "pro":
+    print("create your own world")
+    for_multiplayer = create your own world
+    name_world = input("write your world here: ")
+    invitation = input("write your friends id here: ")
+
+  elif option_button == "multiplayer" and player_mode == "nightmare":
+    print("create your own world")
+    for_multiplayer = create your own world
+    name_world = input("write your world here: ")
+    invitation = input("write your friends id here: ")
+
+break
 
 
 if button == "settings" :
