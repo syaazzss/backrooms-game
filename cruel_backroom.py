@@ -17,11 +17,8 @@ elif button == "option":
   print("select the option")
   option_button = input("write: single player/multiplayer")
   levels_option = input("write: noob/standard/pro/nightmare")
-if option_button and levels_option == "single player" "noob" or "pro" or "standard" or "nightmare"  :
-  print("let's start the game")
-elif option_button and levels_option == 
+if option_button == "single player" and levels_option in ["noob","standard","pro","nightmare" ] :
+  print("let's go")
+elif option_button == "multiplayer" and ["noob","standard","pro","nightmare"] :
+  print("Crete your world")
 
-elif button == "option" and option button "multiparty" :
-  print("create your own world")
- world = input("create your own world here")
-elif button == "settings" :
