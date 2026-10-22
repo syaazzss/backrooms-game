@@ -26,12 +26,13 @@ elif button == "make account":
     print("sorry,your age isnt enough")
   else: 
     print("we sent the account activate to your email. Check it!")
-break
+  break
 
 
 
 #------- Button works ------
 while True:
+
 button = input("click: start game/option/setting/exit game")
 
 
@@ -80,8 +81,7 @@ if button == "option":
     for_multiplayer = "create your own world" 
     name_world = input("write your world here: ")
     invitation = input("write your friends id here: ")
-
-break
+  break
 
 
 if button == "settings" :
@@ -99,6 +99,17 @@ if button == "settings" :
   print(f"right {right_button}")
   left_button = input("A: ")
   print(f"left {left_button}")
-break
+  break
+
+else:
+  exit_pop_up = input("are u sure you want to exit the game? Yes/No: ")
+  if exit_pop_up = "Yes":
+    print("closing the game")
+  else:
+    print("back to the game")
+  break
+     
+  
+  
   
 
