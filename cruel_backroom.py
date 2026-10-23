@@ -27,6 +27,10 @@ elif button == "make account":
   else: 
     print("we sent the account activate to your email. Check it!")
   break
+  if "@" in email :
+    print("valid")
+  else:
+    print("write your email")
 
 
 
