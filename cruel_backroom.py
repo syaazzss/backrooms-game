@@ -50,90 +50,88 @@ while True:
 #------- Button works ------
 while True:
 
-    button = input("click: start game/option/setting/exit game")
+    button = input("click: start game/option/setting/exit game").lower().strip()
 
 
     if button == "start game" :
       print("loading...")
-      print("started game")
-    break
-
-    if button == "option":
+      print("started game") 
+      continue 
+    elif button == "option":
       print("select your option")
-      player_option = input("select: single player/multiplayer")
-      player_mode = input("select mode: noob/standard/pro/nightmare")
-  
-      if player_option == "single player" and player_mode == "noob" :
-        print("easy mode")
-  
-      elif player_option == "single player" and player_mode == "standard" :
-        print("medium mode")
-  
-      elif player_option == "single player" and player_mode == "pro":
-        print("pro player")
-
-      elif player_option == "single player" and player_mode == "nightmare" :
-        print("Let's go,hero")
-
-      elif player_option == "multiplayer" and player_mode == "noob" :
-        print("create your own world")
-        for_multiplayer = ("create your own world")
-        name_world = input("write your world here: ")
-        invitation = input("write your friends id here: ")
-
-      elif player_option == "multiplayer" and player_mode == "standard" :
-        print("create your own world")
-        for_multiplayer = "create your own world"
-        name_world = input("write your world here: ")
-        invitation = input("write your friends id here: ")
-
-      elif player_option == "multiplayer" and player_mode == "pro":
-        print("create your own world")
-        for_multiplayer = "create your own world" 
-        name_world = input("write your world here: ")
-        invitation = input("write your friends id here: ")
-
-      elif player_option == "multiplayer" and player_mode == "nightmare":
-        print("create your own world")
-        for_multiplayer = "create your own world" 
-        name_world = input("write your world here: ")
-        invitation = input("write your friends id here: ")
-    break
-
-
-    if button == "settings" :
-      volume = input("volume 0-100: ")
-      print(f"volume {volume}")
-      sensitivity = input("low/standard/ high: ")
-      print(f"/nsensitivity {sensitivity}")
-      head_boobing = input("low/standard/high: ")
-      print(f"/nhead_boobing {head_boobing}")
-      forward_button = input("W: ")
-      print(f"/nforward {forward_button}")
-      step_back_button = input("S: ")
-      print(f"/nstep back {step_back_button}")
-      right_button = input("D: ")
-      print(f"/nright {right_button}")
-      left_button = input("A: ")
-      print(f"/nleft {left_button}")
-      lean_right_button = input("E: ")
-      print(f"/nlean_right {lean_right_button}")
-      lean_left_button = input("Q: ")
-      print(f"/nlean_left {lean_left_button}")
-      use_button = input("R: )
-      print(f"/nuse {use_button}")
-      break
-
-    else:
-      exit_pop_up = input("are u sure you want to exit the game? Yes/No: ")
-        if exit_pop_up = "Yes":
-          print("closing the game")
-          break
-        else:
-          print("back to the game")
-          break
-     
-  
-  
-  
-
+      player_option = input("select: single player/multiplayer").lower().strip()
+      player_mode = input("select mode: noob/standard/pro/nightmare").lower().strip()
+      if player_option == "single player" :
+          if player_mode == "noob" :
+            print("easy mode")
+          elif player_mode == "standard" :
+            print("medium mode")
+          elif player_mode == "pro" :
+            print("hard mode")
+          elif player_mode == "nightmare" :
+            print("good luck")
+      elif player_option == "multiplayer" :
+          if player_mode == "noob" :
+            print("create your world")
+            world = input("name world: ")
+            invitation = input("write your friends id")
+            print(f"inviting {invitation} to {world}")
+          elif player_mode == "standard" :
+            print("create your world")
+            world = input("name world: ")
+            invitation = input("write your friends id")
+            print(f"inviting {invitation} to {world}")
+          elif player_mode == "pro" :
+            print("create your world")
+            world = input("name world: ")
+            invitation = input("write your friends id")
+            print(f"inviting {invitation} to {world}")
+          elif player_mode == "nightmare" :
+            print("create your world")
+            world = input("name world: ")
+            invitation = input("write your friends id")
+            print(f"inviting {invitation} to {world}")
+            continue         
+    if button == "setting" :
+      settings = input("volume/sensitivity/head bobbing/keyboard button").lower().strip()
+      if settings == "volume" :
+        volume_setting = int(input("0-100"))
+        print(f"your volume {volume_setting}")
+      elif settings == "sensitivity" :
+        sensitivity_setting = input("low/standard/high").lower().strip()
+        print(f"your sensitivity {sensitivity_setting}")
+      elif settings == "head bobbing" :
+        head_bobbing = input("low/standard/high").lower().strip()
+        print(f"your head bobbing {head_bobbing}")
+      elif settings == "keyboard button" :
+        button = input("forward/step back/right/left/lean right/lean left/jump/run/squat/use/inventory").lower().strip()
+        if button == "forward" :
+          button = input("W: ")
+        elif button == "step back" :
+          button = input("S: ")
+        elif button == "right" :
+          button = input("D: ")
+        elif button == "left" :
+          button = input("A: ")
+        elif button == "lean right" :
+          button = input("E: ")
+        elif button == "lean left" :
+          button = input("Q: ")
+        elif button == "jump" :
+          button = input("space: ")
+        elif button == "squat" :
+          button = input("enter: ")
+        elif button == "use" :
+          button = input("R: ")
+        elif button == "inventory" :
+          button = input("Tab: ")
+        continue
+    elif button == "exit game" :
+      exit_pop_up = input("are u sure you want to exit the game? yes/no: ").lower().strip()
+      if exit_pop_up == "yes":
+        print("closing the game")
+        break
+      elif exit_pop_up == "no" :
+        print("back to the game")
+        continue             
+    
