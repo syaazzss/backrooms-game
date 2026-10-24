@@ -6,33 +6,45 @@ print("    R   E         A   K   O    M")
 
 
 #--------      LOGIN ----------
-while True:
 
-    button = input("click: login/make account")
+while True:
+  
+    button = input("click: login/make account").lower().strip()
 
     if button == "login":
-  username = input("username/id")
-  email = input("your email")
-  pin = input("your pin")
-    break
-
-    elif button == "make account":
-  name = input("your name")
-  username = input("make your username")
-  email = input("your email")
-  age = int(input("your age"))
-  pin = input("fix your pin")
-      if age <= 20 :
-        print("sorry,your age isnt enough")
+      username = input("username/id: ") 
+      email = input("your email: ")
+      pin = input("your pin: ")
       break
-      else: 
-        print("we sent the account activate to your email. Check it!")
-      if "@" in email :
-        print("valid")
-      break
+    elif button == "make account": 
+      name = input("your name: ")
+      username = input("make your username: ")
+      your_age = int(input("your age: "))
+      if your_age <= 19 :
+        print("sorry, your age isnt enough")
+        break
       else:
-        print("write your email")
- 
+        while True:
+            your_email = input("your email: ")
+            if "@gmail.com" in your_email :
+              print("valid")
+              break
+            else:
+              print("write your email!")
+
+        pin = input("fix your pin: ")
+        print("we sent OTP code to your email. check it!")
+        OTP = 1234
+        while True:    
+            OTP_code = int(input("OTP: "))
+            if OTP_code == OTP :
+              print("right")
+              break
+            else:
+              print("wrong")
+        break
+        
+
 
 
 #------- Button works ------
